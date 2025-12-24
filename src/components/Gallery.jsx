@@ -1,6 +1,13 @@
 import { gsap } from "gsap";
 import { useCallback, useEffect, useRef, useState } from "react";
 import "./Gallery.css";
+import kavya1 from "./kavya1.png";
+import kavya2 from "./kavya2.png";
+import kavya3 from "./kavya3.png";
+import us1 from "./us1.jpg";
+import us2 from "./us2.jpg";
+import us5 from "./us5.jpg";
+
 
 function Gallery({ isActive }) {
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -11,13 +18,14 @@ function Gallery({ isActive }) {
   const lightboxImgRef = useRef(null);
 
   const photos = [
-    { src: "kavya1.png", alt: "Memory 1" },
-    { src: "kavya2.png", alt: "Memory 2" },
-    { src: "kavya3.png", alt: "Memory 3" },
-    { src: "us1.jpg", alt: "Memory 4" },
-    { src: "us5.jpg", alt: "Memory 5" },
-    { src: "us2.jpg", alt: "Memory 6" },
+    { src: kavya1, alt: "Memory 1" },
+    { src: kavya2, alt: "Memory 2" },
+    { src: kavya3, alt: "Memory 3" },
+    { src: us1, alt: "Memory 4" },
+    { src: us5, alt: "Memory 5" },
+    { src: us2, alt: "Memory 6" },
   ];
+
 
   // Reveal photos with GSAP when page becomes active
   useEffect(() => {
