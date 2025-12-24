@@ -15,7 +15,7 @@ function Gallery({ isActive }) {
     { src: "kavya2.png", alt: "Memory 2" },
     { src: "kavya3.png", alt: "Memory 3" },
     { src: "us1.jpg", alt: "Memory 4" },
-    { src: "us3.jpg", alt: "Memory 5" },
+    { src: "us5.jpg", alt: "Memory 5" },
     { src: "us2.jpg", alt: "Memory 6" },
   ];
 
