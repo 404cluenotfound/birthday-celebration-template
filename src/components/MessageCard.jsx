@@ -13,19 +13,19 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `kavya,
 
-Your personalized birthday message goes here.
+This is a small and cute website for my even cuter girlfriend. I miss you so, so much.
+Since we’re apart, I can’t give you a gift in person, so I made this little website just for you.
+It may not be perfect, but it’s made with a lot of love, late-night thoughts, and all the smiles you give me even from far away.
+I hope this brings a tiny smile on your face, the way you bring happiness into my life every single day.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Dooriyan sirf faaslon ki hoti hain, dilon ki nahi,
+Tu paas na sahi, par har pal meri har khushi mein tu hi sahi.
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— your kuchupuchu`;
 
   // Handle page transitions
   useEffect(() => {
